@@ -23,13 +23,8 @@ Documentation
 --------------
 
 * **[Installing an Arduino Library Guide](https://learn.sparkfun.com/tutorials/installing-an-arduino-library)** - Basic information on how to install an Arduino library.
-* **[Arduino Library](https://github.com/sparkfun/SparkFun_Ublox_Arduino_Library)** - Arduino Library for the SparkFun Ublox GPS-RTK.
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/gps-rtk-hookup-guide)** - Basic hookup guide for the SparkFun Ublox GPS-RTK.
-
-Product Versions
-----------------
-* [GPS-15005](https://www.sparkfun.com/products/15005) - SparkFun Red
-* [SPX-14980](https://www.sparkfun.com/products/14980) - SparkX Black
+* **[Arduino Library](https://github.com/sparkfun/SparkFun_Ublox_Arduino_Library)** - Arduino Library for Ublox modules.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/gps-rtk2-hookup-guide)** - Hookup guide for the SparkFun Ublox GPS-RTK2.
 
 License Information
 -------------------
