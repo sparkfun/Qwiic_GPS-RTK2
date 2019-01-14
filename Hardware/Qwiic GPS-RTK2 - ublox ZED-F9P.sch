@@ -18933,7 +18933,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
-<deviceset name="SPECIAL_INSTRUCTIONS">
+<deviceset name="SPECIAL_INSTRUCTIONS" prefix="LOGO">
 <description>&lt;h3&gt;Special Ordering/Production Instructions Alert&lt;/h3&gt;
 &lt;p&gt;Symbol for special PCB ordering instructions or unique production process warnings.&lt;/p&gt;
 &lt;p&gt;&lt;table border=1 cellpadding=1&gt;
@@ -20832,13 +20832,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <devicesets>
 <deviceset name="FERRITE_BEAD-120_OHM" prefix="FB">
 <description>&lt;h3&gt;Ferrite Bead (blocks, cores, rings, chokes, etc.)&lt;/h3&gt;
-&lt;p&gt;Inductor with layers of ferrite used to suppress high frequencies. Often used to isolate high frequency noise.&lt;/p&gt;
-&lt;p&gt;SparkFun Products:
-&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13613"&gt;IOIO-OTG - V2.2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13664"&gt;SparkFun SAMD21 Mini Breakout&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13339"&gt;SparkFun 6 Degrees of Freedom Breakout - LSM6DS3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13672"&gt;SparkFun SAMD21 Dev Breakout&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
+&lt;p&gt;Inductor with layers of ferrite used to suppress high frequencies. Often used to isolate high frequency noise.&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="FERRITE_BEAD" x="0" y="0"/>
 </gates>
@@ -21566,13 +21560,13 @@ Out</text>
 <sheets>
 <sheet>
 <plain>
-<text x="237.744" y="7.366" size="2.54" layer="94">V10</text>
+<text x="237.744" y="7.366" size="2.54" layer="94">V11</text>
 <text x="149.86" y="101.6" size="1.778" layer="97" align="center">7-bit unshifted I2C address: 0x42</text>
 <text x="145.542" y="176.022" size="2.54" layer="94" ratio="15" rot="MR180" align="center">Ublox ZED-F9P</text>
 <text x="26.162" y="165.862" size="2.54" layer="94" ratio="15" rot="MR180" align="center">RTC Backup</text>
 <text x="30.48" y="81.28" size="2.54" layer="94" ratio="15" rot="MR180" align="center">Stat LEDs</text>
 <wire x1="55.88" y1="185.42" x2="55.88" y2="0" width="0.1524" layer="97" style="longdash"/>
-<text x="220.98" y="172.72" size="1.778" layer="97">Cut jumper to remove 
+<text x="184.658" y="172.72" size="1.778" layer="97">Cut jumper to remove 
 I2C pullups from bus</text>
 <text x="19.558" y="73.914" size="1.778" layer="97">Cut jumper to 
 disable LED</text>
@@ -21586,7 +21580,7 @@ enable SPI</text>
 <text x="195.58" y="101.6" size="1.27" layer="97">Polygon Isolation: 8mil/0.2032mm</text>
 <text x="215.9" y="58.42" size="1.27" layer="97">No clean process</text>
 <text x="195.58" y="106.68" size="1.27" layer="97">Dielectric thickness: 0.73mm</text>
-<text x="195.58" y="96.52" size="1.27" layer="97">https://chemandy.com/calculators/coplanar-waveguide-with-ground-calculator.htm</text>
+<text x="195.58" y="96.52" size="0.762" layer="97">https://chemandy.com/calculators/coplanar-waveguide-with-ground-calculator.htm</text>
 <text x="195.58" y="114.3" size="1.524" layer="97" ratio="15">Microstrip Calculation:</text>
 </plain>
 <instances>

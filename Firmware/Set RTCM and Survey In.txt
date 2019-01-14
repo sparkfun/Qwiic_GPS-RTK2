@@ -1,0 +1,20 @@
+# Config changes format version 1.0
+# created by u-center version 18.11 at 20:12:25 on Saturday, 15 Dec 2018
+[del]
+[set]
+  BBR CFG-MSGOUT-RTCM_3X_TYPE1005_USB 0x1                  # write value 1  0x1               to item id 209102c0 in la
+  BBR CFG-MSGOUT-RTCM_3X_TYPE1074_USB 0x1                  # write value 1  0x1               to item id 20910361 in la
+  BBR CFG-MSGOUT-RTCM_3X_TYPE1084_USB 0x1                  # write value 1  0x1               to item id 20910366 in la
+  BBR CFG-MSGOUT-RTCM_3X_TYPE1094_USB 0x1                  # write value 1  0x1               to item id 2091036b in la
+  BBR CFG-MSGOUT-RTCM_3X_TYPE1124_USB 0x1                  # write value 1  0x1               to item id 20910370 in la
+  BBR CFG-MSGOUT-RTCM_3X_TYPE1230_USB 0x1                  # write value 1  0x1               to item id 20910306 in la
+  RAM CFG-MSGOUT-RTCM_3X_TYPE1005_USB 0x1                  # write value 1  0x1               to item id 209102c0 in la
+  RAM CFG-MSGOUT-RTCM_3X_TYPE1074_USB 0x1                  # write value 1  0x1               to item id 20910361 in la
+  RAM CFG-MSGOUT-RTCM_3X_TYPE1084_USB 0x1                  # write value 1  0x1               to item id 20910366 in la
+  RAM CFG-MSGOUT-RTCM_3X_TYPE1094_USB 0x1                  # write value 1  0x1               to item id 2091036b in la
+  RAM CFG-MSGOUT-RTCM_3X_TYPE1124_USB 0x1                  # write value 1  0x1               to item id 20910370 in la
+  RAM CFG-MSGOUT-RTCM_3X_TYPE1230_USB 0x1                  # write value 1  0x1               to item id 20910306 in la
+
+  RAM CFG-TMODE-SVIN_ACC_LIMIT 0x4e20               # write value 20000  0x4e20        to item id 40030011 in layer 0
+  RAM CFG-TMODE-SVIN_MIN_DUR 0x12c                # write value 300  0x12c           to item id 40030010 in layer 0
+  RAM CFG-TMODE-MODE       1                    # write value 1 - SURVEY_IN        to item id 20030001 in layer 0
