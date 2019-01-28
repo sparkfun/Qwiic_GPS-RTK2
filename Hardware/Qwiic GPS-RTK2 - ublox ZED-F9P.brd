@@ -9,23 +9,23 @@
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -41,11 +41,11 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
@@ -164,15 +164,9 @@
 <wire x1="0" y1="43.18" x2="43.18" y2="43.18" width="0.2032" layer="20"/>
 <wire x1="43.18" y1="43.18" x2="43.18" y2="0" width="0.2032" layer="20"/>
 <text x="41.91" y="35.433" size="1.27" layer="16" font="vector" ratio="15" rot="SMR270" align="center">v11</text>
-<text x="-2.54" y="-8.89" size="1.778" layer="47">Measurements in inches</text>
-<dimension x1="0" y1="0" x2="0" y2="33.02" x3="-7.62" y3="16.51" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="0" y1="33.02" x2="10.16" y2="33.02" x3="5.08" y3="38.1" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<text x="0" y="-8.89" size="1.778" layer="47">Measurements in inches</text>
 <dimension x1="0" y1="0" x2="8.89" y2="0" x3="4.445" y3="-3.81" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="0" y1="33.02" x2="19.05" y2="33.02" x3="9.525" y3="41.91" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="0" y1="33.02" x2="40.64" y2="33.02" x3="20.32" y3="48.26" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="35.56" y1="15.494" x2="35.56" y2="33.02" x3="44.45" y3="24.257" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="2.54" y1="2.54" x2="2.54" y2="30.48" x3="-2.54" y3="16.51" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="2.54" y1="30.48" x2="38.1" y2="30.48" x3="20.32" y3="45.72" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="0" y1="43.18" x2="43.18" y2="43.18" x3="21.59" y3="48.26" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <text x="59.69" y="41.91" size="1.778" layer="51" font="vector" ratio="15">Board thickness is 0.8mm</text>
 <wire x1="-46.99" y1="20.32" x2="-2.54" y2="20.32" width="0.1524" layer="51"/>
 <wire x1="-2.54" y1="20.32" x2="-2.54" y2="36.83" width="0.1524" layer="51"/>
@@ -186,6 +180,14 @@
 <wire x1="2.54" y1="20.32" x2="0" y2="20.32" width="0.2032" layer="22"/>
 <rectangle x1="37.338" y1="14.732" x2="38.735" y2="16.256" layer="41"/>
 <text x="59.69" y="39.37" size="1.778" layer="51" font="vector" ratio="15">No clean process</text>
+<dimension x1="0" y1="0" x2="0" y2="43.18" x3="-10.16" y3="21.59" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="2.54" y1="40.64" x2="40.64" y2="40.64" x3="21.59" y3="44.45" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="2.54" y1="2.54" x2="2.54" y2="40.64" x3="-6.35" y3="21.59" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="13.97" y1="1.27" x2="8.89" y2="1.27" x3="11.43" y3="-3.81" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="39.116" y1="8.128" x2="39.116" y2="0" x3="47.244" y3="4.064" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="39.116" y1="8.128" x2="43.18" y2="8.128" x3="41.148" y3="-3.302" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="6.35" y1="12.7" x2="6.35" y2="0" x3="-2.54" y3="6.35" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="1.27" y1="34.29" x2="1.27" y2="43.18" x3="-2.54" y3="38.735" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 </plain>
 <libraries>
 <library name="SparkFun">
@@ -11240,10 +11242,10 @@ Out</text>
 </signal>
 </signals>
 <mfgpreviewcolors>
-<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8FF0000"/>
 <mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
 <mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
-<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="coppercolor" color="0xFF7DBCBC"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
