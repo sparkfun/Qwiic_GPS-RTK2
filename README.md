@@ -23,7 +23,7 @@ Documentation
 --------------
 
 * **[Installing an Arduino Library Guide](https://learn.sparkfun.com/tutorials/installing-an-arduino-library)** - Basic information on how to install an Arduino library.
-* **[Arduino Library](https://github.com/sparkfun/SparkFun_Ublox_Arduino_Library)** - Arduino Library for Ublox modules.
+* **[Arduino Library](https://github.com/sparkfun/SparkFun_u-blox_GNSS_Arduino_Library)** - Arduino Library for Ublox modules.
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/gps-rtk2-hookup-guide)** - Hookup guide for the SparkFun Ublox GPS-RTK-SMA.
 
 License Information
